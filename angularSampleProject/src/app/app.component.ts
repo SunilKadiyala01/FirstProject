@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularSampleProject';
+  public text:string = "I am the parent Component"
+  public message:string = "Test message is sending from parent component"
 }
